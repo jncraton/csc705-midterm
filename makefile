@@ -1,4 +1,4 @@
-all: s1-languages.html
+all: s1-languages.html s2-problems.html s3-gc-safe-pointers.html
 
 %.html: %.pmd
 	pweave --format=md2html $<
