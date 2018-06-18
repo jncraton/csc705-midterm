@@ -59,6 +59,17 @@ Github also noted this in terms of year-over-year trends for 2017[3]:
 
 > Python replaced Java as the second-most popular language on GitHub, with 40 percent more pull requests opened this year than last. Typescript was also on the rise in 2017, used in almost four times as many pull requests as last year.
 
+Looking at the most popular tags on StackOverflow gives the following[4]:
+
+1. javascript ×1633017
+2. java ×1426689
+3. c# ×1217914
+4. php ×1204764
+5. python ×97171
+6. html ×755724
+7. c++ ×574468
+8. css ×540085
+9. sql ×445656
 
 Most Used
 =========
@@ -103,3 +114,4 @@ Most Installed
 1. https://insights.stackoverflow.com/survey/2018/#technology
 2. https://spectrum.ieee.org/computing/software/the-2017-top-programming-languages
 3. https://octoverse.github.com/
+4. https://stackoverflow.com/tags?tab=popular
