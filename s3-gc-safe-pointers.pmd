@@ -1,0 +1,55 @@
+% Garbage Collection and Safe Pointers in C++14
+
+Assignment
+==========
+
+The  IOS C++ standard C++ 11
+was
+the most current 
+(until C++ 14 [meant to be a small extension of 
+C++11, fixing 
+bugs and adding minor features] 
+
+) 
+and we are beginning to see several compilers that 
+enforce this new standard
+.
+You are NOT
+required to get a hold of the standards Document ($30.00). 
+
+It is fine to research the following questions using second level s
+ources such as internet articles, book, 
+whatever. 
+Please addr
+ess each of the following two (3
+) questions separately.
+a)
+There was a lot of discussion and work done on the topic of garbage collection being included in 
+the new standard. Many thought it would
+be included but it was not.  I would like you to see if 
+you can find some good articles. Research papers, etc. on those discussions, both before the 
+decision was made and after the standard was released.  The work product I would like is a list 
+of sources
+(you should be able to get to them not just some reference of a title)
+, each with a 
+“
+very
+”
+short summary of its relevance to the topic.  Also I would like a short summary of the 
+topic itself and your thoughts on it.  
+Note:
+Did you know that DSU subscri
+bes to some very nice databases, ACM, IEEE etc. that also 
+might be a good source of some listings on the topic or other things you may be doing with your 
+graduate work.  I am sure the library will be happy to help you if you have any questions on how 
+to ac
+cess these resources online) 
+
+b)
+Instead of garbage collection, the new standard introduces several new variations of pointers to 
+help address some of the issues that arise when trying to safely use dynamic memory and 
+pointers.  Please list and give short e
+xplanations on these pointers.  (some call them safe 
+pointers or sharing pointers etc.)
+BONUS:
+Has  C++ 14 added anything to this conversation?
