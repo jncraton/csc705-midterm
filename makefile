@@ -9,6 +9,6 @@ $(SRC).pdf: $(SRC).html
 	chromium-browser --headless --print-to-pdf=$(SRC).pdf $(SRC).html
 	
 clean:
-	rm -f *.html *.pdf
+	rm -f *.html
 	rm -rf figures
 	rm -rf __pycache__
