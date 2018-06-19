@@ -118,11 +118,11 @@ print(x)
 
 > (b) What does it print if the language uses dynamic scoping with deep binding?
 
-Deep binding means that the scope of the function is bound when it is passed as an argument.
+Deep binding means that the scope of the function is bound when it is passed as an argument. So, `y` = 3 and `x` = 1 when add is actually called. This means that it writes 4 to x, which is then printed.
 
 > (c) What does it print if the language uses dynamic scoping with shallow binding
 
-Shallow binding means that the scope of the function is bound when it is called.
+Shallow binding means that the scope of the function is bound when it is called. In this case, it means that add isn't accessing the outermost x value being used by write_integer, so it simply prints 1.
 
 6.12
 ====
