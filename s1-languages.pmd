@@ -74,7 +74,7 @@ Looking at the most popular tags on StackOverflow gives the following[4]:
 Most Used
 =========
 
-The annual StackOverflow user survey is a great source of information about language usage by developers[1]. I don't think this invalidates my ability to use these results here, but I was a participant in this survey I am a moderated on the Stack Exchange network. According to a multiple choice question asking developers (n=78,334) which language they use, these are the most used languages:
+The annual StackOverflow user survey is a great source of information about language usage by developers[1].According to a multiple choice question asking developers (n=78,334) which language they use, these are the most used languages:
 
 - JavaScript - 69.8%
 - HTML - 68.5%
@@ -106,12 +106,41 @@ Github also publishes statistics on programming language usage. Here is a nice g
 
 ![](github-prs.png)
 
-Github is very biased as it only includes open source projects, but this does do a nice job of caputuring the current hot languages for open source work. It's worth noting that you don't see a compiled language until you hit the sixth spot on that list.
+Github is very biased as it focuses on open source projects, but this does do a nice job of caputuring the current hot languages for open source work. It's worth noting that you don't see a compiled language until you hit the sixth spot on that list.
+
+RedMonk publishes a quarterly ranking that combines both Github and StackOverflow popularity. They produce a nice 2-axis graphic:
+
+![](redmonk-rankings.png)
+
+The top 10 languages using this combined metric are:
+
+1. JavaScript
+2. Java
+3. Python
+4. PHP
+5. C#
+6. C++
+7. CSS
+8. Ruby
+9. C
+10. Swift
 
 Most Installed
 ==============
+
+Debian maintains a list of packages sorted by the number of installations. These statisics are only collected from users who have specificially opted in by installing the popularity-contest package, so the totals are not actual number of live installations. These only serve as a relative metric. Here are the top programming language packages installed using Debian's apt package system:
+
+1. Perl - 197k installed
+2. Bash - 197k installed
+3. Python 194k installed
+4. cpp - 156k installed
+5. gcc - 119k installed
+
+It's no surprise that the top 5 installed langages on one of the popular Linux distros are Perl, Bash, Python, C++, and C. Perl, Bash, and Python are popular scripting languages that are often required by other open source tools. C and C++ are required to compile many open source tools.
 
 1. https://insights.stackoverflow.com/survey/2018/#technology
 2. https://spectrum.ieee.org/computing/software/the-2017-top-programming-languages
 3. https://octoverse.github.com/
 4. https://stackoverflow.com/tags?tab=popular
+5. https://popcon.debian.org/main/by_inst
+6. https://redmonk.com/sogrady/2018/03/07/language-rankings-1-18/
