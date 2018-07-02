@@ -84,8 +84,8 @@ BONUS
 
 > Has  C++ 14 added anything to this conversation?
 
-{Added by me}
+My brief exploration of C++14 did not turn up much new that was added in this area. C++ did add std::make_unique() to make it easy to create safe temporary values and eliminate one last case of needing to use `new`[1].
 
-> Has C++ 17 added anything?
-
+1. https://stackoverflow.com/questions/22571202/differences-between-stdmake-unique-and-stdunique-ptr
+2. https://en.wikipedia.org/wiki/C++14
 
