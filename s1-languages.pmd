@@ -179,6 +179,10 @@ Homebrew (the most popular Mac package manager) also tracks install statistics. 
 7. 	gcc (C) 	284,863 
 8.  php 137,339 
 
+We can also look at the most popular languages installed to power large web backends:
+
+![](web-backend.png)
+
 1. https://insights.stackoverflow.com/survey/2018/#technology
 2. https://spectrum.ieee.org/computing/software/the-2017-top-programming-languages
 3. https://octoverse.github.com/
@@ -189,3 +193,4 @@ Homebrew (the most popular Mac package manager) also tracks install statistics. 
 8. https://www.tiobe.com/tiobe-index/programming-languages-definition/
 9. https://insights.stackoverflow.com/survey/2018#top-paying-technologies
 10. https://formulae.brew.sh/analytics/install-on-request/365d/
+11. https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites
