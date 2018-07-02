@@ -71,6 +71,32 @@ Looking at the most popular tags on StackOverflow gives the following[4]:
 8. css ×540085
 9. sql ×445656
 
+The TIOBE index is also a source for popularity information[7]. It is based primarily on weighted search engine popularity. He are the most popular languages according to that metric:
+
+1. Java
+2. C
+3. C++
+4. Python
+5. C#
+6. VB .NET
+7. PHP
+8. JavaScript
+9. SQL
+10. R
+
+The annual StackOverflow survey also provides data on salary by programming language.[9] This provides a different angle on the question of language popularity by hinting at the supply vs demand for programming languages. Here was their top 10:
+
+1. F# $74k
+2. Ocaml $73k
+3. Clojure $72k
+4. Groovy $72k
+5. Perl $69k
+6. Rust $69k
+7. Erlang $67k
+8. Scala $67k
+9. Go $66k
+10. Ruby $64k
+
 Most Used
 =========
 
@@ -144,3 +170,6 @@ It's no surprise that the top 5 installed langages on one of the popular Linux d
 4. https://stackoverflow.com/tags?tab=popular
 5. https://popcon.debian.org/main/by_inst
 6. https://redmonk.com/sogrady/2018/03/07/language-rankings-1-18/
+7. https://www.tiobe.com/tiobe-index/
+8. https://www.tiobe.com/tiobe-index/programming-languages-definition/
+9. https://insights.stackoverflow.com/survey/2018#top-paying-technologies
