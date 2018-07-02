@@ -127,7 +127,9 @@ Shallow binding means that the scope of the function is bound when it is called.
 6.12
 ====
 
-Describe a plausible scenario in which a programmer might wish to avoid short-circuit evaluation of a Boolean expression.
+> Describe a plausible scenario in which a programmer might wish to avoid short-circuit evaluation of a Boolean expression.
+
+Assuming that both arguments to a boolean operand have side effects, and you want those side effects to occur in all cases, you must not use them in a context subject to short circuit evaluation. This would prevent both expressions from always being evaluated.
 
 6.14
 ====
@@ -153,7 +155,7 @@ In effect, this design would require that certain exceptional behavior would be 
 
 The above function will return some secret as long as `is_banned()` returns false. If this language was modified to catch certain exceptional behavior and simply evaluate it to false, then `calculate_secret()` could be called and return something secret due to some upstream error in `is_banned()`.
 
-Exceptional behavior should be properly handled. I would not want to use a language that simply does it's best to do what it assumes to be helpful in this area.
+Exceptional behavior should be properly handled. I would not want to use a language that simply does its best to do what it assumes to be helpful in this area.
 
 6.26
 ====
@@ -192,7 +194,7 @@ I appreciate having tools like goto available when needed for cases such as the 
       }
     }
 
-This can be handled even easily in more modern languages, such as Python:
+This can be handled even more easily in more modern languages, such as Python:
 
 ```python
 A = [[1,0,0],[0,0,1],[0,0,0],[0,0,1],[0,0,0]]
