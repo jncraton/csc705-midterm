@@ -97,6 +97,22 @@ The annual StackOverflow survey also provides data on salary by programming lang
 9. Go $66k
 10. Ruby $64k
 
+Based on thinking through the above, the following are my popularity rankings:
+
+1. Python
+2. JavaScript
+3. Java
+4. C#
+5. Ruby
+6. Objective-C
+7. C
+8. C++
+9. PHP
+
+I put Python at the top because it has become very trendy recently. It's not a new language, but it seems to finally be mature enough for a wide variety of uses. JavaScript continues to be popular for both front-end and back-end web work and is perhaps the most widely supported language in the world being baked in to nearly all modern web browsers.
+
+The rest of the list consists of languages that aren't trendy by any means, but that have stood the test of time and are still widely used today. C/C++ are still popular, though many new projects that need the raw performance that these languages can deliver are beginning to choose more recent languages such as Go and Rust.
+
 Most Used
 =========
 
@@ -151,6 +167,18 @@ The top 10 languages using this combined metric are:
 9. C
 10. Swift
 
+It makes a lot of sense to me to look at language usage in terms of published open source projects and StackOverflow questions and answers. These are the rankings that I would use based directly on the above but with CSS removed as though it is technically Turing complete, I do not think it makes sense to think of it as a programming language.
+
+1. JavaScript
+2. Java
+3. Python
+4. PHP
+5. C#
+6. C++
+7. Ruby
+8. C
+9. Swift
+
 Most Installed
 ==============
 
@@ -182,6 +210,25 @@ Homebrew (the most popular Mac package manager) also tracks install statistics. 
 We can also look at the most popular languages installed to power large web backends:
 
 ![](web-backend.png)
+
+My list for the most installed languages is:
+
+1. JavaScript - Based on nodejs being most popular in Homebrew and being available as part of all modern browsers for front-end development.
+2. Python - Due to popularity on Mac and Linux while also have a strong following in the data science community.
+3. SQL - Between the various DBMS that implement SQL, I think it is fair to say that it is very widely used and installed.
+4. C - This is still the systems programming language. Low-level packages will require C when building from source, and performance parts of programs are still often written in pure C.
+5. C++ - While this language appears to be on its way out, its legacy still makes it very common to have installed.
+6. Java - Java is still incredibly popular for writing portable software and is very commonly installed by developers.
+7. Go - Go appears to be replacing C++ as the modern compiled language of choice. This shows both in Debian and Homebrew installs.
+8. Ruby - Thanks largely to Rails, Ruby still has a very large install base.
+9. PHP - PHP is still very commonly used for back-end web development and shows up near the end in both Debian and Homebrew.
+
+I've left out Perl as it comes prepackaged with the OS frequently. While it is a legitimate programming language, it is most generally used for OS scripting tasks. I've left out VisualBasic, Bash, and Powershell for the same reasons.
+
+Conclusion
+==========
+
+There are many ways to consider the current "top" languages. This provides a brief overview of some of these along with my personal interpretation of some of the results.
 
 1. https://insights.stackoverflow.com/survey/2018/#technology
 2. https://spectrum.ieee.org/computing/software/the-2017-top-programming-languages
