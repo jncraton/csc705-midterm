@@ -14,43 +14,43 @@ a)
 
 > There was a lot of discussion and work done on the topic of garbage collection being included in the new standard. Many thought it would be included but it was not.  I would like you to see if you can find some good articles. Research papers, etc. on those discussions, both before the decision was made and after the standard was released. The work product I would like is a list of sources (you should be able to get to them not just some reference of a title), each with a “very” short summary of its relevance to the topic. 
 
-"Why doesn't C++ have a garbage collector?" Stack Overflow, 25 June 2018, stackoverflow.com/questions/147130/why-doesnt-c-have-a-garbage-collector.
+**"Why doesn't C++ have a garbage collector?" Stack Overflow, 25 June 2018, stackoverflow.com/questions/147130/why-doesnt-c-have-a-garbage-collector.**
 
 This page provides good discussion on the technical reasons why not all languages need a garbage collector. There are real performance and design reason to prefer manual memory management/RAII in some contexts.
 
-"Garbage Collection - No Thanks" 27 December 2016, www.modernescpp.com/index.php/garbage-collectio-no-thanks.
+**"Garbage Collection - No Thanks" 27 December 2016, www.modernescpp.com/index.php/garbage-collectio-no-thanks.**
 
 Blog post from 2016 discussion why garbage collection should not be present in C++. This covers how RAII covers basic memory management tasks and notes that garbage collection as a part of the core language is wasteful when you do not need it.
 
-"Why Garbage Collection if smart pointers are there." Software Engineering Stack Exchange, 27 December 2010, softwareengineering.stackexchange.com/questions/30254/why-garbage-collection-if-smart-pointers-are-there.
+**"Why Garbage Collection if smart pointers are there." Software Engineering Stack Exchange, 27 December 2010, softwareengineering.stackexchange.com/questions/30254/why-garbage-collection-if-smart-pointers-are-there.**
 
 Good discussion from 2010 on the advantages of C++ garbage collection over Smart Pointers. The gist is that Smart Pointers don't implement a full garbage collector, and having GC built into a language helps with consistency and interoperability accross software projects.
 
-"[ C++11 – Part 3 ] Smart pointers" headerphile, 23 September 2014, headerphile.com/tag/garbage-collection.
+**"[ C++11 – Part 3 ] Smart pointers" headerphile, 23 September 2014, headerphile.com/tag/garbage-collection.**
 
 Helpful thoughts on the benefits of Smart Pointers in C++11.
 
-Stroustrup, Bjarne. "The Essence of C++ with examples in C++84, C++98, C++11, and C++14". Columbia University, 2014, www.cs.columbia.edu/~aho/cs4115/lectures/14-01-29_Stroustrup.pdf
+**Stroustrup, Bjarne. "The Essence of C++ with examples in C++84, C++98, C++11, and C++14". Columbia University, 2014, www.cs.columbia.edu/~aho/cs4115/lectures/14-01-29_Stroustrup.pdf**
 
 Lecture notes from 2014 indicating that in Stroustup's view C++ should fundamentally have "no crucial dependence on a garbage collector" and that "GC is a last and imperfect resort".
 
-Boehm, Hans-J., and Michael Spertus. "Transparent Programmer-Directed Garbage Collection for C+." URL: http://www. open-std. org/jtc1/sc22/wg21/docs/papers 2310 (2007).
+**Boehm, Hans-J., and Michael Spertus. "Transparent Programmer-Directed Garbage Collection for C+." URL: http://www. open-std. org/jtc1/sc22/wg21/docs/papers 2310 (2007).**
 
 Proposal for transparent garbage collection in C++. This claims to support backwards compatibility and provide opportunities to integrate with and repair legacy libraries and code bases.
 
-Stroustrup, Bjarne. "Proposal to Acknowledge that Garbage Collection for C++ is Possible X3J16/96-0114 WG21/N0932."
+**Stroustrup, Bjarne. "Proposal to Acknowledge that Garbage Collection for C++ is Possible X3J16/96-0114 WG21/N0932."**
 
 Article from Stroustrup indicating that implementations of C++ can and some do implement garbage collection. The C++ standard makes GC implementation of the language possible, but the standard itself neither expects nor requires GC.
 
-Detlefs, John R. Ellis David L. "Safe, Efficient Garbage Collection for C+." In Proceedings of the 1994 USENIX C++ Conference: April 11-14, 1994, Cambridge, MA, p. 143. Usenix Association, 1994.
+**Detlefs, John R. Ellis David L. "Safe, Efficient Garbage Collection for C+." In Proceedings of the 1994 USENIX C++ Conference: April 11-14, 1994, Cambridge, MA, p. 143. Usenix Association, 1994.**
 
 Detailed proposal from Xerox PARC to add garbage collection to C++. The proposal includes minimal language changes and provides the ability to enable GC in only some parts of a program.
 
-Boehm, Hans, and Mike Spertus. "Minimal Support for Garbage Collection and Reachability-Based Leak Detection." (2008).
+**Boehm, Hans, and Mike Spertus. "Minimal Support for Garbage Collection and Reachability-Based Leak Detection." (2008).**
 
 Proposal to improve support for garbage collection and leak detection by providing ABI compatibility in certain areas.
 
-"In Defense of C++ | Hacker News." 6 February 2017, news.ycombinator.com/item?id=13581960.
+**"In Defense of C++ | Hacker News." 6 February 2017, news.ycombinator.com/item?id=13581960.**
 
 Great discussion of the pros and cons of C++ compared to other languages. The conversation isn't all about garbage collection, but it is touched on.
 
