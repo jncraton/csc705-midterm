@@ -56,6 +56,7 @@ Great discussion of the pros and cons of C++ compared to other languages. The co
 
 > Also I would like a short summary of the topic itself and your thoughts on it.
 
+Personally, I don't think all languages should be garbage collection baked in. It's generally helpful, but there are use cases where not having GC is an asset. I like the direction that C++ has decided to head. GC can easily be implemented by using this language, but it is not built-in or expected by the language specification in the way that it is in Go. I think that is a great decision and allows C++ to continue to serve its niche well.
 
 b)
 ===
