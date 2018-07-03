@@ -29,6 +29,8 @@ C Rules
 - Names must be declared before use
 - The scope of a name extends from its declaration through the end of the block
 
+Here's the pseudo code with my comments added:
+
     1.  procedure main()
     2.    a : integer := 1 // a is declared and set to 0x01
     3.    b : integer := 2 // b is declared and set to 0x02
@@ -58,7 +60,7 @@ C# Rules
 
 This produces a syntax error, as inner attempts to access `a` before it is declared.
 
-Module-3 Rules
+Modula-3 Rules
 --------------
 
 - **Names can be declared in any order**
