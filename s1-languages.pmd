@@ -1,47 +1,8 @@
 % Modern Language Survey
 % Jon Craton
 
-Assignment
-==========
-
-The landscape of programming languages being used currently is constantly changing.  Often we will see 
-articles etc. saying this or that language is the most popular, or is the new big thing, or is where all 
-the 
-jobs are.  I would 
-like you to research this issue
-to get a feel for what is the true nature of the use of 
-programming languages
-.  I want you to go deeper than just finding one article with a list of languages.  
-You need to really look at things like w
-hat are they basing it on? How extensive is it?  Is it focused 
-towards a particular market or industry?
-I would like “rankings” (loose interpretation) of the languages (Top 
-10 give or take a couple)
-addressed 
-in separate categories:
-a)
-Most Popular
-b)
-Most Use
-d
-c)
-Most installed Base
-{this does not enclose things like a compiler that is shipped with every copy 
-of an OS ...}
-Of course there is going to be a lot of variations on what you find so you will have to do your best to 
-weed through all the information.  The
-re are many that base everything on the number of 
-questions
-asked about a language on an online help site, or the number of hits a particular download site has for a 
-particular language.  Make sure you take into account what the information you are working
-with is 
-based on.  It is your job to try and 
-distill several sources for this and give your best estimates.  Make sure 
-you source your work.  A nice summary of each category (a,b,c) of what you found is expected along 
-with the rankings
-
-Popular
-=======
+Popular Languages
+=================
 
 IEEE Spectrum provides an annual programming language popularity list[2]. This is derived from several difference sources of information on programming languages. Here is their list:
 
@@ -113,8 +74,8 @@ I put Python at the top because it has become very trendy recently. It's not a n
 
 The rest of the list consists of languages that aren't trendy by any means, but that have stood the test of time and are still widely used today. C/C++ are still popular, though many new projects that need the raw performance that these languages can deliver are beginning to choose more recent languages such as Go and Rust.
 
-Most Used
-=========
+Most Used Languages
+===================
 
 The annual StackOverflow user survey is a great source of information about language usage by developers[1].According to a multiple choice question asking developers (n=78,334) which language they use, these are the most used languages:
 
@@ -179,8 +140,8 @@ It makes a lot of sense to me to look at language usage in terms of published op
 8. C
 9. Swift
 
-Most Installed
-==============
+Most Installed Langauges
+========================
 
 Debian maintains a list of packages sorted by the number of installations. These statisics are only collected from users who have specificially opted in by installing the popularity-contest package, so the totals are not actual number of live installations. These only serve as a relative metric. Here are the top programming language packages installed using Debian's apt package system[5]:
 
