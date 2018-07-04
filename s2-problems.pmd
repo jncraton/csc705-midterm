@@ -210,7 +210,7 @@ Exceptional behavior should be properly handled. I would not want to use a langu
 > The intent of the code is to find the first all-zero row, if any, of an n × n matrix. Do you find the
 example convincing? Is there a good structured alternative in C? In any language?
 
-I appreciate having tools like goto available when needed for cases such as the above example. However, I believe that functions can handle this case cleanly:
+I appreciate having tools like goto available when it may be clearer for cases such as the above example. However, I believe that functions can handle this case cleanly:
 
     int is_all_zeroes(R,n) {
       int j;
