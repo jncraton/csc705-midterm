@@ -185,7 +185,7 @@ There may be some particular context where this design could make sense, but in 
 In effect, this design would require that certain exceptional behavior would be silently caught and simply evaluated to false at runtime. Consider the following code:
 
     def get_secret():
-      return is_banned() && calculate_secret()
+      return is_banned() || calculate_secret()
 
 The above function will return some secret as long as `is_banned()` returns false. If this language was modified to catch certain exceptional behavior and simply evaluate it to false, then `calculate_secret()` could be called and return something secret due to some upstream error in `is_banned()`.
 
