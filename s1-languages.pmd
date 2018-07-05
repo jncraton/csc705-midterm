@@ -10,11 +10,11 @@ IEEE Spectrum provides an annual programming language popularity list[2]. This i
 
 The IEEE methodology is complex, so it is difficult to determine simple strengths and weaknesses. Being an engineering organization, the IEEE results are likely biased towards science and engineering work. We don't see Javascript on this list, although it tops other lists.
 
-Looking at the top 5 from that list using Google Trends can give us a sense for how popular these langauges are over time:
+Looking at the top 5 from that list using Google Trends can give us a sense for how popular these languages are over time:
 
 ![](ieee_gtrends.png)
 
-Looking at the Google Trends data, it is clear that web searches for Java have been slowly decresing over the last decade. This is likely linked to a decrease in popularity. Likewise, there has been steady growth in search traffic for Python showing that it has been growing in popularity.
+Looking at the Google Trends data, it is clear that web searches for Java have been slowly decreasing over the last decade. This is likely linked to a decrease in popularity. Likewise, there has been steady growth in search traffic for Python showing that it has been growing in popularity.
 
 Github also noted this in terms of year-over-year trends for 2017[3]:
 
@@ -109,7 +109,7 @@ Github also publishes statistics on programming language usage. Here is a nice g
 
 ![](github-prs.png)
 
-Github is very biased as it focuses on open source projects, but this does do a nice job of caputuring the current hot languages for open source work. It's worth noting that you don't see a compiled language until you hit the sixth spot on that list.
+Github is very biased as it focuses on open source projects, but this does do a nice job of capturing the current hot languages for open source work. It's worth noting that you don't see a compiled language until you hit the sixth spot on that list.
 
 RedMonk publishes a quarterly ranking that combines both Github and StackOverflow popularity. They produce a nice 2-axis graphic:
 
@@ -140,10 +140,10 @@ It makes a lot of sense to me to look at language usage in terms of published op
 8. C
 9. Swift
 
-Most Installed Langauges
+Most Installed Languages
 ========================
 
-Debian maintains a list of packages sorted by the number of installations. These statisics are only collected from users who have specificially opted in by installing the popularity-contest package, so the totals are not actual number of live installations. These only serve as a relative metric. Here are the top programming language packages installed using Debian's apt package system[5]:
+Debian maintains a list of packages sorted by the number of installations. These statistics are only collected from users who have specifically opted in by installing the popularity-contest package, so the totals are not actual number of live installations. These only serve as a relative metric. Here are the top programming language packages installed using Debian's apt package system[5]:
 
 1. Perl - 197k installed
 2. Bash - 197k installed
@@ -155,7 +155,7 @@ Debian maintains a list of packages sorted by the number of installations. These
 8. php5-common - 45k installed
 9. nodejs 32k installed
 
-It's no surprise that the top 5 installed langages on one of the popular Linux distros are Perl, Bash, Python, C++, and C. Perl, Bash, and Python are popular scripting languages that are often required by other open source tools. C and C++ are required to compile many open source tools.
+It's no surprise that the top 5 installed languages on one of the popular Linux distros are Perl, Bash, Python, C++, and C. Perl, Bash, and Python are popular scripting languages that are often required by other open source tools. C and C++ are required to compile many open source tools.
 
 Homebrew (the most popular Mac package manager) also tracks install statistics. These are the most popular programming languages that were installed on request (not as a dependency) this year[10]:
 
