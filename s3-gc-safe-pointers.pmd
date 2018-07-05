@@ -60,6 +60,8 @@ The gist seems to be that C++ already allows garbage collection quite nicely, bu
 
 Personally, I do not believe that all languages should have garbage collection baked in. It's generally helpful, but there are use cases where not having GC is an asset. I like the direction that C++ has decided to head. GC can easily be implemented by using this language, but it is not built-in or expected by the language specification in the way that it is in Go or Java. I think that is a great decision and allows C++ to continue to serve its niche well.
 
+> "C++ Is my favorite garbage collected language because it generates so little garbage" -Bjarne Stroustrup
+
 b)
 ===
 
