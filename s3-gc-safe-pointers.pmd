@@ -1,8 +1,5 @@
 % Garbage Collection and Safe Pointers in C++14
 
-Assignment
-==========
-
 > The  IOS C++ standard C++ 11 was the most current (until C++ 14 [meant to be a small extension of C++11, fixing bugs and adding minor features]) and we are beginning to see several compilers that enforce this new standard. You are NOT required to get a hold of the standards Document ($30.00). 
 
 > It is fine to research the following questions using second level sources such as internet articles, book, whatever. 
