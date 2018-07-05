@@ -90,4 +90,5 @@ My brief exploration of C++14 did not turn up much new that was added in this ar
 
 1. https://stackoverflow.com/questions/22571202/differences-between-stdmake-unique-and-stdunique-ptr
 2. https://en.wikipedia.org/wiki/C++14
-
+3. https://msdn.microsoft.com/en-us/library/hh279674.aspx
+4. https://stackoverflow.com/questions/106508/what-is-a-smart-pointer-and-when-should-i-use-one
