@@ -26,7 +26,7 @@
     13.    middle()
     14.    print a, b
 
-> Suppose this was code for a language with the declaration-order rules of C (but with nestedsubroutines)—that is, names must be declared before use, and the scope of a name extends from its declaration through the end of the block. At each print statement, indicate which declarations of a and b are in the referencing environment. What does the program print (or will the compiler identify static semantic errors)? Repeat the exercise for the declaration-order rules of C# (names must be declared before use, but the scope of a name is the entire block in which it is declared) and of Modula-3 (names can be declared in any order, and their scope is the entire block in which they are declared).
+> Suppose this was code for a language with the declaration-order rules of C (but with nested subroutines)—that is, names must be declared before use, and the scope of a name extends from its declaration through the end of the block. At each print statement, indicate which declarations of a and b are in the referencing environment. What does the program print (or will the compiler identify static semantic errors)? Repeat the exercise for the declaration-order rules of C# (names must be declared before use, but the scope of a name is the entire block in which it is declared) and of Modula-3 (names can be declared in any order, and their scope is the entire block in which they are declared).
 
 C Rules
 -------
@@ -163,7 +163,7 @@ Shallow binding means that the scope of the function is bound when it is called.
 
 > Describe a plausible scenario in which a programmer might wish to avoid short-circuit evaluation of a Boolean expression.
 
-Assuming that both arguments to a boolean operand have side effects, and you want those side effects to occur in all cases, you must not use them in a context subject to short circuit evaluation. This would prevent both expressions from always being evaluated.
+Assuming that both arguments to a Boolean operand have side effects, and you want those side effects to occur in all cases, you must not use them in a context subject to short circuit evaluation. This would prevent both expressions from always being evaluated.
 
 6.14
 ====
